@@ -71,7 +71,8 @@ while True:
 
     try:
         option = int(input("Enter your option (1-9): "))
-
+        
+        # -- 1. Deposit Option --
         if option == 1:
             confirm_pin = get_pin()
             while True:
@@ -83,20 +84,23 @@ while True:
             print()
             cus1.deposit(confirm_pin, deposit_amt)
             print()
-
+        
+        # -- 2. Withdraw Option --
         elif option == 2:
             confirm_pin = get_pin()
             withdraw_amt = get_amount("Withdraw amount")
             print()
             cus1.withdraw(confirm_pin, withdraw_amt)
             print()
-
+        
+        # -- 3. Check Balance Option --
         elif option == 3:
             confirm_pin = get_pin()
             print()
             cus1.check_balance(confirm_pin)
             print()
-
+        
+        # -- 4. Change PIN Option --
         elif option == 4:
             while True:
                 try:
@@ -120,24 +124,28 @@ while True:
             print()
             cus1.change_pin(ex_pin, current_pin)
             print()
-
+        
+        # -- 5. Account Details Option --
         elif option == 5:
             confirm_pin = get_pin()
             print()
             cus1.account_details(confirm_pin)
             print()
-
+        
+        # -- 6. Transfer Money Option --
         elif option == 6:
             confirm_pin = get_pin()
             transfer_amt = get_amount("Transfer amount")
             print()
             cus1.transfer(confirm_pin, transfer_amt)
             print()
-
+        
+        # -- 7. Transaction History Option --
         elif option == 7:
             cus1.transaction_history()
             print()
-
+        
+        # -- 8. Change Account Holder Name Option --
         elif option == 8:
             confirm_pin = get_pin()
             while True:
@@ -148,7 +156,8 @@ while True:
                     print("Invalid input! Account holder name must contain only letters.")
             cus1.change_account_holder(confirm_pin, update_name)
             print()
-
+        
+        # -- 9. Exit Option --
         elif option == 9:
             print("Thank you for using XYZ Bank ATM.")
             print("Have a nice day!")
