@@ -35,7 +35,7 @@ A console-based Bank Management System developed using Python and Object-Oriente
 
 Bank-Management-System/
 ├── bank.py
-├── helper.py
+├── functions.py
 ├── main.py
 
 ## How to Run
