@@ -159,7 +159,7 @@ while True:
         
         # -- 9. Exit Option --
         elif option == 9:
-            print("Thank you for using XYZ Bank ATM.")
+            print("Thank you for using XYZ Bank.")
             print("Have a nice day!")
             break
 
