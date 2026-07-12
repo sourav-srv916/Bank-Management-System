@@ -165,4 +165,16 @@ This project helped me practice:
 
 Aspiring Python Full Stack Developer
 
+Currently learning:
+- Python
+- HTML
+- CSS
+- JavaScript
+- MySQL
+- Django
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
+
 GitHub: https://github.com/sourav-srv916
